@@ -1,0 +1,9 @@
+dags:
+  gitSync:
+    enabled: true
+    repo: "https://github.com/komal-sarvam/airflow-dags.git"
+    branch: "master"
+    subPath: "dags"
+    depth: 1
+    rev: HEAD
+
